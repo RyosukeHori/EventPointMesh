@@ -1,6 +1,6 @@
 # EventPointMesh: Human Mesh Recovery Solely from Event Point Clouds
 
-[![Visit Project Page](https://img.shields.io/badge/Project%20Page-Visit%20Here-blue)](https://your-project-page-link.com)
+[![Visit Project Page](https://img.shields.io/badge/Project%20Page-Visit%20Here-blue)](https://ryosukehori.github.io/EPM_ProjectPage/)
 
 ![Teaser Image](imgs/Fig1.png)
 
