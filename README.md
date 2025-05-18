@@ -66,6 +66,7 @@ The dataset is provided **strictly for non-commercial academic research purposes
 You must agree to the license terms before downloading.  
 **The download link will be shown immediately after submitting the form.**
 
+After downloading, please unzip the files and make sure that the `outputs/` and `data/` directories are placed in the root directory of this repository.
 
 
 ## Acknowledgements
