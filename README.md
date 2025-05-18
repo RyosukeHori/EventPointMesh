@@ -68,3 +68,18 @@ You must agree to the license terms before downloading.
 
 
 
+## Acknowledgements
+
+We would like to thank the creators of the following excellent resources that supported our work:
+
+- **SMPL**  
+  We use the SMPL body model for human mesh representation.  
+  Project page: [https://smpl.is.tue.mpg.de/](https://smpl.is.tue.mpg.de/)
+
+- **EventHPE**  
+  EventHPE inspired our approach and provided a valuable baseline.  
+  GitHub: [https://github.com/EventHPE/EventHPE](https://github.com/EventHPE/EventHPE)
+
+- **mmMesh**  
+  We referred to mmMesh as a reference for point cloud processing networks.  
+  GitHub: [https://github.com/HavocFiXer/mmMesh](https://github.com/HavocFiXer/mmMesh)
