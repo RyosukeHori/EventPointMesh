@@ -1,0 +1,53 @@
+root_dir: ..
+smpl_dir: src/smpl/basicModel_m_lbs_10_207_0_v1.0.0.pkl
+data_dir: data
+event_data: event
+dataset: DAVIS
+dataset_div: action
+data_size: null
+batch_size: 8
+batch_length: 15
+num_worker: 4
+pin_memory: 1
+img_size: 256
+display: 20
+gpu_id: 0
+epochs: 300
+fps: img
+exec_test: true
+model:
+  name: pose  # simple / pose / keypoint
+  bidirectional: true
+  feat: all  # all / global / local
+optimizer:
+  name: Adam
+  lr: 0.001
+diff_lr: true
+scheduler: null
+loss_func: L2 # L1
+loss_weight: {q: 10, t: 10, v: 100, l: 10, b: 1, d: 0, s2: 1, s3: 10}
+root_kp: [17, 19, 16, 18, 2, 5, 1, 4]
+leaf_kp: [19, 21, 18, 20, 5, 8, 4, 7]
+large_memory: false
+normalize:
+  mean: [130.3135, 141.5535, 40369.1257]
+  std: [44.0201, 42.9797, 43212.6183]
+use_amp: false
+
+# --- train ---
+# checkpoint: null
+# kpt_pred: null
+# stride: 1
+
+# --- inference keypoint ---
+# checkpoint: null
+# kpt_pred: null
+# stride: 5
+
+# --- test ---
+checkpoint: 2023-10-03-12-59
+kpt_pred: null
+stride: 15
+
+
+
